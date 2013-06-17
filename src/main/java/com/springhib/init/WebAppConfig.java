@@ -22,7 +22,7 @@ import org.springframework.web.servlet.view.UrlBasedViewResolver;
 @EnableWebMvc
 @EnableTransactionManagement
 @PropertySource("classpath:application.properties")
-public class WebAppConfig {
+public class WebAppConfig{
     
     private static final String PROPERTY_NAME_DATABASE_DRIVER   = "db.driver";
     private static final String PROPERTY_NAME_DATABASE_PASSWORD = "db.password";
